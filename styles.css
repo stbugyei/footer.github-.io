@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  
+  .container {
+    width: 1140px;
+    margin: 0 auto;
+  }
+
+  .sign__footer{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+  }
+
+  .signup__container{
+    width: 54%;
+    font-size: 1.0rem;
+    line-height: 3rem;
+    margin: 0px 245px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.signup-title{
+    font-size: 1.7rem;
+    text-transform: uppercase;
+}
+
+input[type=text] {
+    width: 70%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 5px; 
+    padding: 5px;
+    resize: vertical;
+    outline: none;
+}
+  
+  
+  input[type=text]:focus,
+  select:focus:before{
+    border-radius: 50px; 
+    display: inline-block;
+    background: rgb(245, 235, 235);
+  }
+
+  .btn_signup{
+    width: 23%;
+	display:inline-block;
+	cursor:pointer;
+    font-size:15px;
+    font-weight: bold;
+    text-decoration:none;
+    outline: none;
+    border: none;
+    background: rgb(255, 254, 254);
+}
+
+
+.btn_signup:active {
+	position:relative;
+	top:1px;
+}
+
+.signup-input__btn{
+ margin-top:10px ;
+ width: 100%; 
+ border-radius: 50px;  
+ box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 1px 2px rgba(0, 0, 0, .23);
+ background: rgb(255, 254, 254);
+}
+
+.footer__container{
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 60px 0px;
+}
+
+.footer-content {
+    width: 35%;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;  
+}
+
+.Footer-title {
+    font-weight: bold;
+    font-size: 1.5rem; 
+    margin-bottom: 20px;
+}
+
+ .fab{
+    margin-right: 10px;
+} 
+
+
+a{
+    color: inherit;
+}
+
+a:hover{
+    color: rgb(109, 36, 177);
+    text-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 1px 2px rgba(0, 0, 0, .23);
+    
+}
+
+.facebook:hover{
+    color:#3b5998;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 1px 2px rgba(0, 0, 0, .23);
+    
+}
+
+.instagram:hover{
+   color: #c32aa3;
+   text-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 1px 2px rgba(0, 0, 0, .23);
+    
+} 
+
+.twitter:hover{
+    color: #1da1f2;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 1px 2px rgba(0, 0, 0, .23);
+    
+ }
+
+ .pinterest:hover{
+    color: #bd081c;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 1px 2px rgba(0, 0, 0, .23);
+    
+ }
+
+ .linkedin:hover{
+    color: #007bb5;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 1px 2px rgba(0, 0, 0, .23);
+    
+ }
+
+ /*
+=== media querry ===
+*/
+
+@media all and (max-width: 1037px){
+
+    .container{
+        width: auto;
+    }
+
+    .signup__container {
+        width: 74%;
+        font-size: 0.8rem;
+        line-height: 1.7rem;
+        margin: 0px 15px 0px 17px;
+        padding: 20px;
+    }
+
+    .signup-title {
+        font-size: 1.5rem;
+    }
+
+    .footer__container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Footer-title {
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-bottom: 6px;
+    }
+       
+    .footer-content {
+        margin: 15px;
+        line-height: 2rem;
+        width: auto; 
+    }
+      
+} 
+
+
+
+
+  
